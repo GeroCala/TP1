@@ -1,0 +1,21 @@
+.imagen{
+    width: 200px;
+    height: auto;
+    border-radius: 40px;
+}
+.titulo{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+}
+.sub{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.tex{
+    margin-top: 0px;
+    text-align: justify;
+}
