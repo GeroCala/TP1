@@ -8,6 +8,7 @@
     background-color: black;
     text-align: center;
     margin: 0px;
+    font-family: "Boldonse", system-ui;
 }
 .sub{
     background-color: black;
@@ -17,5 +18,53 @@
 }
 .tex{
     margin-top: 0px;
+    margin-left: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat (300px, 5%);
+    gap: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     text-align: justify;
+    background-color: rgb(240, 240, 168);
+    
+}
+.nav{
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    background: #333;
+    padding: 10px;
+    margin: 0px;
+}
+.nav li{
+    padding: 10px 15px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.nav li:hover{
+    background: #555;
+    border-radius: 5px;
+}
+
+.boldonse-regular {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+.container section .presentacion{
+    font-family: "Boldonse", system-ui;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
 }
