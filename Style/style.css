@@ -55,6 +55,7 @@
 .nav{
     display: flex;
     justify-content:center;
+    align-items: center;
     gap: 15px;
     list-style: none;
     padding: 0;
@@ -72,6 +73,12 @@
 .nav li:hover{
     background: #555;
     border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
 }
 
 .boldonse-regular {
