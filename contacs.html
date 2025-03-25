@@ -30,24 +30,25 @@
 
     <h4 class="sub">Formulario</h4>
     <section class="selection">
-        <form class="form" action="mailto: calatronigeronimo10@gmail.com" method="post" enctype="text/plain">
+        <form  action="https://api.web3forms.com/submit" method="POST"  class="form">
+          <input type="hidden" name="access_key" value="40b9dbae-9711-41c2-963b-5c4866b11292">
             <div class="form-section">
               <label for="nombre">Nombre:</label>
-              <input type="text" name="nombre" id="nombre" required="">
+              <input class="atributos" type="text" name="nombre" id="nombre" required="">
             </div>
             <div class="form-section">
               <label for="email">Email:</label>
-              <input type="email" name="email" id="email" required="">
+              <input class="atributos" type="email" name="email" id="email" required="">
             </div>
             <div class="form-section">
               <label for="telefono">Teléfono</label>
-              <input type="tel" name="telefono" id="telefono" required="">
+              <input class="atributos" type="tel" name="telefono" id="telefono" required="">
             </div>
             <div class="form-section">
               <label for="mensaje">Mensaje:</label>
-              <textarea name="mensaje" id="mensaje" required=""></textarea>
+              <textarea class="atributos" name="mensaje" id="mensaje" required=""></textarea>
             </div>
-            <input class="button" type="submit" value="Enviar">
+            <input class="boton" type="submit" value="Enviar">
           </form>
     </section>
 </body>

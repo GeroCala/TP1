@@ -1,10 +1,27 @@
-.imagen{
+.container{
+    display: grid;
+    grid-template-columns: repeat (300px, 5%);
+    gap: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: justify;
+    background-color: rgb(240, 240, 168);
+    
+}
+.grancontenedor{        
+    align-items: center;
     justify-content: center;
+    display: grid;
+}
+.imagen{
+    justify-self: center;
     width: 600px;
     height: auto;
     border-radius: 40px;
 }
 .titulo{
+    display: grid;
     color: white;
     background-color: black;
     text-align: center;
@@ -21,17 +38,6 @@
     margin-top: 0px;
     margin-left: 0px;
 }
-.container{
-    display: grid;
-    grid-template-columns: repeat (300px, 5%);
-    gap: 10px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: justify;
-    background-color: rgb(240, 240, 168);
-    
-}
 .nav{
     display: flex;
     justify-content:center;
@@ -42,13 +48,12 @@
     padding: 10px;
     margin: 0px;
 }
-.nav li{
-    padding: 10px 15px;
-}
 .nav a{
+    padding: 10px 15px;
     text-decoration: none;
-    color: white;
+    color: beige;
     font-weight: bold;
+    font-size: 20px;
 }
 .nav li:hover{
     background: #555;
@@ -76,6 +81,7 @@
     width: 600px;
 }
 .form-section {
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -84,12 +90,20 @@
     text-align: center;
     font-size: 30px;
 }
+.form-section .atributos{
+    padding: 10px;
+    border: 5px solid beige;
+    border-radius: 100px;
+    width: 100%;
+}
 .selection{
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 .selection ul{
     font-size: 30px;
+    text-align: center;
+    list-style: none;
 }
 .logo{
     margin-left: 10px;
@@ -97,6 +111,15 @@
     height: auto;
 }
 .descripcion{
+    display: grid;
     font-size: 30px;
     text-align: center;
+}
+.boton{
+    background-color: beige;
+    height: 30px;
+    width: auto;
+    border: 5px solid black;
+    border-radius: 100px;
+    width: 100%;
 }
