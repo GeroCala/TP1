@@ -1,5 +1,6 @@
 .imagen{
-    width: 200px;
+    justify-content: center;
+    width: 600px;
     height: auto;
     border-radius: 40px;
 }
@@ -11,10 +12,10 @@
     font-family: "Boldonse", system-ui;
 }
 .sub{
-    background-color: black;
-    color: white;
-    display: inline-block;
+    color: black;
     margin-bottom: 0px;
+    font-size: 30px;
+    text-align: center;
 }
 .tex{
     margin-top: 0px;
@@ -67,4 +68,35 @@
     margin-left: 10%;
     display: flex;
     justify-content: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+}
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    font-style: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.selection{
+    display: flex;
+    justify-content: center;
+}
+.selection ul{
+    font-size: 30px;
+}
+.logo{
+    margin-left: 10px;
+    width: 40px;
+    height: auto;
+}
+.descripcion{
+    font-size: 30px;
+    text-align: center;
 }
